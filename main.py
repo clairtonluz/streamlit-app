@@ -1,8 +1,5 @@
-import hvplot.pandas
-import pandas as pd
 import streamlit as st
 import plotly.express as px 
-import matplotlib.pyplot as plt
 from app.filter_data import getFilteredData
 from app.load_data import loadData
 from app.inputs_data import getListEmpresa, getListStatus, getListUfs, getMaxQtdPalavras, getMinMaxDate
