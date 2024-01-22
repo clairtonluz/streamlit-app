@@ -16,6 +16,6 @@ def loadData():
     df_ibyte['empresa'] = 'Ibyte'
     df_nagem['empresa'] = 'Nagem'
 
-    df = pd.concat([df_ibyte, df_nagem])
+    df = pd.concat([df_hapvida, df_ibyte, df_nagem])
     _formatData(df)
     return df
