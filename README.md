@@ -15,4 +15,5 @@ pip install --upgrade pandas
 pip install --upgrade streamlit
 pip install --upgrade hvplot
 pip install --upgrade plotly
+pip install --upgrade matplotlib
 ```
