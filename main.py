@@ -14,7 +14,7 @@ min_date, max_date = getMinMaxDate(df)
 max_qtd_palavras = getMaxQtdPalavras(df)
 
 # APP inicio
-st.title('Reclame Aqui 2')
+st.title('Reclame Aqui')
 
 #crie um sidebar com os inputs
 empresas_select = st.sidebar.selectbox('Selecione a empresa', empresas)
