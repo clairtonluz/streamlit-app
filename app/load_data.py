@@ -9,9 +9,9 @@ def _formatData(df):
 @st.cache_data
 def loadData():
     # Importa datasets
-    df_hapvida = pd.read_csv('https://raw.githubusercontent.com/clairtonluz/streamlit-app/main/datasets/RECLAMEAQUI_HAPVIDA.csv')
-    df_ibyte = pd.read_csv('https://raw.githubusercontent.com/clairtonluz/streamlit-app/main/datasets/RECLAMEAQUI_IBYTE.csv')
-    df_nagem = pd.read_csv('https://raw.githubusercontent.com/clairtonluz/streamlit-app/main/datasets/RECLAMEAQUI_NAGEM.csv')
+    df_hapvida = pd.read_csv('datasets/RECLAMEAQUI_HAPVIDA.csv')
+    df_ibyte = pd.read_csv('datasets/RECLAMEAQUI_IBYTE.csv')
+    df_nagem = pd.read_csv('datasets/RECLAMEAQUI_NAGEM.csv')
     df_hapvida['empresa'] = 'Hapvida'
     df_ibyte['empresa'] = 'Ibyte'
     df_nagem['empresa'] = 'Nagem'
